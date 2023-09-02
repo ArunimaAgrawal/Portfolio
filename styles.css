@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family:  <link rel="preconnect" href="https://fonts.googleapis.com">
+                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                 <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(74, 21, 91);
+    /* background-image: url('projects/portfolio/abstract-rectangle-background-free-vector.jpg'); */
+    /* background-size: contain; */
+    /* height: 100px; width: 100px; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #441e7c;
+    padding: 15px;
+    margin-top: 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
